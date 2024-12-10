@@ -1,4 +1,4 @@
-# Automobile Sales Visualisation Analysis
+<h1 align = "Center"> Automobile Sales Visualisation Analysis </h1>
 
 ## Description
 In this project I was tasked to create plots to understand the historical trends in automobile sales during the recession period. The data set used for this project contains *historical_automobile_sales* data, representing automobile sales and related variables during the recession and non-recession period. The dataset includes the following columns:
