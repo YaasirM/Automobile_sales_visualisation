@@ -1,0 +1,9 @@
+from js import fetch
+import io
+
+URL = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/historical_automobile_sales.csv"
+resp = await fetch(URL)
+text = io.BytesIO((await resp.arrayBuffer()).to_py())
+import pandas as pd
+df = pd.read_csv(text)
+df
