@@ -1,8 +1,7 @@
 # Automobile Sales Visualisation Analysis
-In this project I was tasked to create plots to understand the historical trends in automobile sales during the recession period. 
 
 ## Description
-The data set used for this project contains *historical_automobile_sales* data, representing automobile sales and related variables during the recession and non-recession period. The dataset includes the following columns:
+In this project I was tasked to create plots to understand the historical trends in automobile sales during the recession period. The data set used for this project contains *historical_automobile_sales* data, representing automobile sales and related variables during the recession and non-recession period. The dataset includes the following columns:
 
 
 | Date | Year | Month | Recession | Consumer_Confidence | Seasonality_Weight | Price | Advertising_Expenditure | Competition | GDP | Growth_Rate | unemployment_rate | Automobile_Sales | Vehicle_Type | City |
@@ -10,7 +9,7 @@ The data set used for this project contains *historical_automobile_sales* data, 
 | 1/31/1980 | 1980 | Jan | 1 | 108.24 | 0.5 | 27483.571 | 1558 | 7 | 60.223 | 0.01 | 5.4 | 456 | Supperminicar | Georgia |
 
 
-To see the data set that was used for this project, you can find it [here](https://github.com/YaasirM/Automobile_sales_visualisation/blob/main/assets/historical_automobile_sales.csv)
+To see the full data set that was used for this project, you can find it [here](https://github.com/YaasirM/Automobile_sales_visualisation/blob/main/assets/historical_automobile_sales.csv)
 
 ## Task
 The task of this project is to do a few of the following:
@@ -47,7 +46,7 @@ plt.show()
 
 *Automobile Sales by Year*
 
-Now from this line graph, we can decipher that there are periods where the total automobile sales dips by an alarming rate. It might be due to the recession periods, so I have included the label on the below graph to highlight the times of the recession:
+Now from this line graph, we can decipher that there are periods where the total automobile sales dips by an alarming rate. It may be due to the recession periods, so I have included the label on the below graph to highlight the times of the recession:
 
 ```python
 plt.figure(figsize=(10, 6))
@@ -68,7 +67,7 @@ plt.show()
 
 *Automobile Sales by Year (2)*
 
-Here we can see that the recession periods directly afect the automobile sales that are made each year, causing the number of sales to decrese by a drastic rate. We can also see from the graph that the recession with the lowest automobile sales was the 2008-09 recession, whilst the highest amount of sales in a recession period was the 2000-01 recession (although not a large difference between the two). 
+Here we can see that the recession periods directly affect the automobile sales that are made each year, causing the number of sales to decrese by a drastic rate. We can also see from the graph that the recession with the lowest automobile sales was the 2008-09 recession, whilst the highest amount of sales in a recession period was the 2000-01 recession (although not a large difference between the two). 
 
 ## Vehicle type by recession period
 
